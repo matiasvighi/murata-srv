@@ -12,7 +12,7 @@ class CommandController extends Controller
 {
 	public function actionPija($name = 'Unknown')
     {
-        echo 'hello world '.$name . "\n";
+        echo 'Hello world '.$name . "!! \n";
 
         return ExitCode::OK;
     }
